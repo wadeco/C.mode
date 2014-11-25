@@ -61,6 +61,10 @@
                 <string>UInt16</string>
                 <string>UInt8</string>
             </keywords>
+        
+        <keywords id = "C Include" useforautocomplete = "yes" scope="keyword">
+        	<regex>\b#include\b</regex>
+        </keywords>
             
             <keywords id="Numbers" color="#00f" inverted-color="#5d56ff" useforautocomplete="no" scope="constant.numeric">
 				<regex>(?&lt;![\w\d_])((?:[+-]?(?:(?:[0-9]+\.[0-9]*)|(?:\.[0-9]+))(?:[eE][+\-]?[0-9]+)?[fFlL]?)|(?:(?:(?:[1-9][0-9]*)|0[0-7]*|(?:0[xX][0-9a-fA-F]+))(?:(?:[uU][lL]?)|(?:[lL][uU]?))?))(?![\w\d_])</regex>
