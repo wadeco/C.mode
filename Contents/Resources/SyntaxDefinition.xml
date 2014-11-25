@@ -63,7 +63,7 @@
             </keywords>
         
         <keywords id = "C Include" useforautocomplete = "yes" scope="keyword">
-        	<regex>\b#include\b</regex>
+        	<regex>(\b#include\b)</regex>
         </keywords>
             
             <keywords id="Numbers" color="#00f" inverted-color="#5d56ff" useforautocomplete="no" scope="constant.numeric">
